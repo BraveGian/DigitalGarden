@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="calcolatrice.css">
+
+</head>
+<body>
+  <div class="box">
+    
+    <input type="text" class="display" id="display" readonly placeholder="0"><br> 
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(1)">   1</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(2)">   2</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(3)">   3</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi('+')"  >+</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(4)">   4</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(5)">5</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(6)">   6</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi('-')"> -</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(7)"> 7</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(8)" > 8</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(9)">  9</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi('*')">*</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi(0)" > 0</button>
+    <button type="button" class="tastiera-numerica" onclick=" pulisci()"       > C</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi('.')"    > .</button>
+    <button type="button" class="tastiera-numerica" onclick=" aggiungi('/')"> /</button>
+    <button type="button" class="uguale"            onclick="OperazioneCalcolo()">=</button>
+
+    <script src="calcolatrice.js"></script>
+    </div>
+    
+   
+</body>
+</html>
