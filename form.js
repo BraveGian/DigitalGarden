@@ -8,4 +8,5 @@ function cambioForm(){
     document.getElementById('box').style.borderColor="green";
     document.querySelector('.layout').style.borderRadius='5px';
     document.querySelector('#invia_form').style.borderRadius='5px';
+    document.getElementById('box').style.fontStyle='italic';
 }
