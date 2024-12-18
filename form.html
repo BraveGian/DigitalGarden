@@ -7,28 +7,37 @@
     <link rel="stylesheet" type="text/css" href="form.css">
 </head>
 <body>
-    <h2>Registrati Ora</h2>
-    <div class="box">
-    <form action="/invia" method="post">
-      <label> Nome</label>
-      <input type="text" id="Nome" name="nome" placeholder="Insert your name"><br><br>
-      <label> Cognome</label>
-      <input type="text" id="Cognome" name="nome" placeholder="Insert your surname" required><br><br>
-      <label> Città</label>
-      <input type="text" id="Città" name="nome" placeholder="Insert your city"><br><br>
-      <label> Data di nascita</label>
-      <input type="date" id="data di nascita" name="Data di nascita" placeholder="insert your birth" required><br><br>
-      <label> Nazione</label>
-      <input type="text" id="nazione" name="Nazione" placeholder=" Insert your nation"  required><br><br>
-      <label> Numero di telefono</label>
-      <input type="tel" id="telefono" name="numero di telefono" placeholder="Insert your number" required><br><br>
-      <label> Indirizzo mail</label>
-      <input type="email" id="mail" name="indirizzo E-mail" placeholder=" Insert your mail" required><br><br>
-      <input type="submit" value="INVIA">
-</form> 
- </div>   
-    
-    
+    <script src="form.js"></script>
+        <h2>Registrati Ora</h2>
+    <div id="box">
+        <form action="/invia" method="post">
+            <label class="name"> Nome</label>
+            <input type="text" id="Nome" name="nome" placeholder="Insert your name"><br><br>
+           
+            <label class="cognome"> Cognome</label>
+            <input type="text" id="Cognome" name="nome" placeholder="Insert your surname" required><br><br>
+           
+            <label class="citta"> Città</label>
+            <input type="text" id="Città" name="nome" placeholder="Insert your city"><br><br>
+            
+            <label class="data"> Data di nascita</label>
+            <input type="date" id="data di nascita" name="Data di nascita" placeholder="insert your birth" required><br><br>
+           
+            <label class="nazione"> Nazione</label>
+            <input type="text" id="nazione" name="Nazione" placeholder=" Insert your nation"  required><br><br>
+            
+            <label class="numeroTel"> Numero di telefono</label>
+            <input type="tel" id="telefono" name="numero di telefono" placeholder="Insert your number" required><br><br>
+            
+            <label class="email"> Indirizzo mail</label>
+            <input type="email" id="mail" name="indirizzo E-mail" placeholder=" Insert your mail" required><br><br><br><br>
+            
+            <input type="button" id="invia_form" value="invia" onclick="msgAlert()">
+            <button type="button" class="layout" onclick="cambioForm()">Cambia il layout form</button>
+    </div>   
+        </form> 
+            
+    </div>   
     </form>
 </body>
 </html>
