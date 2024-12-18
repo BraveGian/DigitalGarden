@@ -1,11 +1,11 @@
-.box{
-    
+#box{
     width: 350px;
     height:400px;
-    background-color: aqua;
+    background-color:pink;
     border: 2px solid; 
-    padding: 5px;
-   
+    padding:10px;
+    margin-top: 20px;
+    border-radius:10px;
 }
 
 h2{
@@ -13,6 +13,39 @@ h2{
 }
 
 label{
-font-style: italic;
+    margin-right: 10px;
+    
 }
 
+.name{
+    margin-right: 90px;
+    
+}
+
+.cognome{
+    margin-right: 65px;
+}
+
+.citta{
+    margin-right: 95px;
+}
+
+.data{
+    margin-right: 30px; 
+}
+
+.nazione{
+    margin-right: 72px;
+}
+
+.numeroTel{
+    margin-right: 0px;
+}
+
+.email{
+    margin-right: 35px;
+}
+
+.layout{
+    margin-left: 80px;
+}
