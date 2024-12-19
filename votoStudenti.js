@@ -22,7 +22,7 @@ function premiPulsante(){
         let media=somma/archivio.length;
         console.log(" la media dell alunno è: " + media);
     }
-
+       document.getElementById('testo').innerText= " la somma dell alunno è: " + somma;
   }
 
 
