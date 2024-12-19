@@ -6,9 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="votoStudenti.js"></script>
     <input type="text" nome="nomeAlunno" placeholder="Nome alunno" required><br><br>
     <input type="text" nome="cognomeAlunno" placeholder="cognome alunno" required><br><br>
-    <input type="text" nome="votoAlunno" placeholder="voto compito" required><br><br>
-    <button type="button" id="premi" onclick="">Verifica</button>
+    <input type="number" nome="votoitaliano" id="votoIT" placeholder="voto compito italiano" required><br><br>
+    <input type="number" nome="votomatematica" id="votoMAT" placeholder="voto compito matematica" required><br><br>
+    <input type="number" nome="votochimica" id="votoCH" placeholder="voto compito chimica" required><br><br>
+    <input type="number" nome="votoingleswe" id="votoEN" placeholder="voto compito inglese" required><br><br>
+    <button type="button" id="voto" onclick="premiPulsante()">Inserisci voti</button>
+    <button type="button" id="calcola" onclick="premiPulsante()">Calcola media</button>
+    
+    <p id="testo"></p>
 </body>
 </html>
