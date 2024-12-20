@@ -4,11 +4,11 @@ function premiPulsante(){
   
   function inserisciElemento(){
       let somma=0;
-     const archivio=[3]; 
-     const votazioneITALIANO=  parseFloat(document.getElementById('votoIT').value);
-     const votazioneMATEMATICA= parseFloat(document.getElementById('votoMAT').value);
-     const votazioneCHIMICA= parseFloat(document.getElementById('votoCH').value);
-     const votazioneINGLESE= parseFloat(document.getElementById('votoEN').value);
+     const archivio=[]; 
+     const votazioneITALIANO=  parseInt(document.getElementById('votoIT').value);
+     const votazioneMATEMATICA= parseInt(document.getElementById('votoMAT').value);
+     const votazioneCHIMICA= parseInt(document.getElementById('votoCH').value);
+     const votazioneINGLESE= parseInt(document.getElementById('votoEN').value);
      console.log(votazioneITALIANO);
      console.log(votazioneMATEMATICA);
      console.log(votazioneCHIMICA);
@@ -21,9 +21,14 @@ function premiPulsante(){
        }
         let media=somma/archivio.length;
         console.log(" la media dell alunno è: " + media);
+        document.getElementById('testo').innerHTML= " la somma dell alunno è: " + media;
+        document.getElementById('votoIT').value="";
+        document.getElementById('votoMAT').value="";
+        document.getElementById('votoCH').value="";
+        document.getElementById('votoEN').value="";
+    
     }
-       document.getElementById('testo').innerText= " la somma dell alunno è: " + somma;
+       
   }
 
-
-    
+ 
