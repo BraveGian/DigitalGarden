@@ -29,8 +29,7 @@ function verificaParole(){
                 }
             }
         }   
-            console.log("ci sono in totale caratteri maiuscoli: ", contatoreX);  
-            console.log("ci sono in totale caratteri minuscoli: ", contMinX);  
-            console.log("ci sono in totale caratteri maiuscoli: ", contatoreY);  
-            console.log("ci sono in totale caratteri minuscoli: ", contMinY); 
+            console.log("nella prima parola ci sono " + contatoreX + " maiuscola e " + contMinX + " minuscole ");  
+            console.log("nella seconda parola ci sono " + contatoreY + " maiuscola e " + contMinY + " minuscole "); 
+            
             }
