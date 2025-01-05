@@ -3,10 +3,13 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    background: rgb(234,170,153);
+   background: linear-gradient(133deg, rgba(234,170,153,0.8855917366946778) 49%, rgba(255,135,141,1) 62%);
 }
-
 .login{
-    background-color: red;
+    border: 1px solid #bd8470 ;
+    border-radius: 0 20px 0 20px;
     width: 300px;
     height: 400px;
 }
+
