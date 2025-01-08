@@ -7,6 +7,8 @@ body{
    background: linear-gradient(133deg, rgba(234,170,153,0.8855917366946778) 49%, rgba(255,135,141,1) 62%);
 }
 .login{
+    display:flex;
+    flex-direction: column;
     border: 1px solid #bd8470 ;
     border-radius: 0 20px 0 20px;
     width: 300px;
