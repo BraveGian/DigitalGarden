@@ -46,7 +46,7 @@ console.log(updatedJsonString);*/
 
 
 // La stringa JSON che vogliamo parsare
-const jsonString = '{"nome": "Mario", "cognome": "Rossi", "eta": 30, "citta": "Milano", "telefono": "+39 123 456 7890", "email": "mario.rossi@example.com", "indirizzo": "Via Roma 123, Milano, Italia"}';
+/*const jsonString = '{"nome": "Mario", "cognome": "Rossi", "eta": 30, "citta": "Milano", "telefono": "+39 123 456 7890", "email": "mario.rossi@example.com", "indirizzo": "Via Roma 123, Milano, Italia"}';
 
 // Parsing della stringa JSON in un oggetto JavaScript
 const persona = JSON.parse(jsonString);
@@ -65,4 +65,15 @@ console.log("Dopo la rimozione:", persona);
 const updatedJsonString = JSON.stringify(persona, null, 2);
 
 // Mostra il JSON aggiornato
-console.log(updatedJsonString);
+console.log(updatedJsonString);*/
+
+
+const StringProve= '{"squadra":"Fiorentina", "citta":"Firenze"}';
+const team= JSON.parse(StringProve);
+team.stadio="Artemio Franchi";
+const updateStringProve= JSON.stringify(team,null,2);
+console.log(updateStringProve);
+delete team.citta;
+console.log(updateStringProve);
+/*updateStringProve;
+console.log(updateStringProve);*/
